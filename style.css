@@ -3,17 +3,7 @@ body
   font-family: "Lato", sans-serif;
 }
 
-/* .sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 10px;
-} */
+
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -23,9 +13,9 @@ body
   display: block;
 }
 
-.sidenav a:hover {
+/* .sidenav a:hover {
   color: #f1f1f1;
-}
+} */
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
@@ -59,14 +49,23 @@ body
   margin-right: auto;
   width: 50%;
 }
-.imgMain
+/* .imgMain
 {
-  width: 100%;
+  width: 85%;
   height: auto;
-}
+} */
 .card-boxes{
   display: flex;
   flex-direction: row;
+  padding: 1rem;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.logo{
+  width: 60%;
+  height: auto;
+}
+.references{
+  display: flex;
+  justify-content: center;
 }
