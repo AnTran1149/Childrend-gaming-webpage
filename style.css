@@ -3,7 +3,7 @@ body
   font-family: "Lato", sans-serif;
 }
 
-.sidenav {
+/* .sidenav {
   height: 100%;
   width: 160px;
   position: fixed;
@@ -13,7 +13,7 @@ body
   background-color: #111;
   overflow-x: hidden;
   padding-top: 10px;
-}
+} */
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -45,7 +45,6 @@ body
 	margin-left: 180px;
 	
 }
-.
 .headerstyle2{
 	color: purple;
 }
@@ -59,4 +58,15 @@ body
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.imgMain
+{
+  width: 100%;
+  height: auto;
+}
+.card-boxes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
