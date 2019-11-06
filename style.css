@@ -1,59 +1,4 @@
-body 
-{
-  font-family: "Lato", sans-serif;
-}
 
-
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-}
-
-/* .sidenav a:hover {
-  color: #f1f1f1;
-} */
-
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-.contentpage 
-{
-	margin-top: 200px;
-	margin-left: 180px;
-	
-}
-.headerstyle2{
-	color: purple;
-}
-
-.headerstyle{
-	color: white;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-/* .imgMain
-{
-  width: 85%;
-  height: auto;
-} */
 .card-boxes{
   display: flex;
   flex-direction: row;
@@ -68,4 +13,13 @@ body
 .references{
   display: flex;
   justify-content: center;
+}
+.card-columns{
+  padding: 1rem;
+}
+.references{
+  padding: 1rem;
+  text-emphasis-color: #e83e8c;
+  width: 60%;
+  height: auto;
 }
